@@ -31,7 +31,13 @@ export default function Header({ className, menuItems }) {
           <div className={cx('logo')}>
             <Link href="/">
               <a title="Home">
-              <img src="/Medico_Logo_white.svg/Medico_Logo_White.svg" alt="logo" data-src="/Medico_Logo_white.svg/Medico_Logo_White.svg"></img>
+                <Image
+                  src="/logo.png"
+                  width={400}
+                  height={80}
+                  alt="Blueprint media logo"
+                  layout="responsive"
+                />
               </a>
             </Link>
           </div>
