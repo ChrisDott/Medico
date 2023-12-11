@@ -31,13 +31,7 @@ export default function Header({ className, menuItems }) {
           <div className={cx('logo')}>
             <Link href="/">
               <a title="Home">
-                <Image
-                  src="/medico_logo_white.svg"
-                  width={400}
-                  height={80}
-                  alt="Medico logo"
-                  layout="responsive"
-                />
+              <img src="/Medico_Logo_White.svg" alt="logo" data-src="/Medico_Logo_White.svg"></img>
               </a>
             </Link>
           </div>
