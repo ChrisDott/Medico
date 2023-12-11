@@ -32,10 +32,10 @@ export default function Header({ className, menuItems }) {
             <Link href="/">
               <a title="Home">
                 <Image
-                  src="/logo.png"
+                  src="/medico_logo_white.svg"
                   width={400}
                   height={80}
-                  alt="Blueprint media logo"
+                  alt="Medico logo"
                   layout="responsive"
                 />
               </a>
